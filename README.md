@@ -8,7 +8,7 @@ The project can also be connected to n8n so a user can submit a niche and countr
 
 - Search Meta Ads Library by niche and country
 - Automatically scroll and load available ads
-- Extract advertiser name
+- Extract advertiser nameF
 - Extract company domain
 - Extract company website
 - Extract Meta Ad Library ID
@@ -260,11 +260,11 @@ Append or Update Google Sheets Rows
 The n8n form collects two values:
 
 ```text
-Nicha
+Niche
 Country
 ```
 
-The current field name is `Nicha`, so keep that exact field name unless you also update the expressions in the workflow.
+The current field name is `Niche`, so keep that exact field name unless you also update the expressions in the workflow.
 
 Available country options include:
 
@@ -325,7 +325,7 @@ JSON body:
 
 ```json
 {
-  "niche": "{{ $json.Nicha }}",
+  "niche": "{{ $json.Niche }}",
   "country": "{{ $json.Country }}"
 }
 ```
