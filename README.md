@@ -60,7 +60,7 @@ Playwright in this project requires Node.js 20 or newer.
 Clone the GitHub repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone (https://github.com/Systemapic-agency/Meta-Ads-Agency-Scrapper.git)
 ```
 
 Open the project folder:
