@@ -81,11 +81,6 @@ Install the Playwright Chromium browser:
 npx playwright install chromium
 ```
 
-If Playwright reports missing system dependencies on Linux, run:
-
-```bash
-npx playwright install-deps chromium
-```
 
 ## Run the Server Locally
 
@@ -103,13 +98,10 @@ http://localhost:3000
 
 The application also supports the `PORT` environment variable.
 
-Example `.env` file:
 
 ```env
 PORT=3000
 ```
-
-The `.env` file should not be committed to GitHub.
 
 ## Health Check
 
